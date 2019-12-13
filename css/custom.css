@@ -31,3 +31,10 @@
 .human-features-form {
   margin-right: 25%;
 }
+
+.padding-lead{
+  padding-top:15px;
+  padding-left:600px;
+  padding-right:600px;
+  padding-bottom:15px;
+}

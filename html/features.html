@@ -14,6 +14,7 @@
         $(window).bind("load", function() {
           $("#nav-feature").addClass("active");
         });
+        $("#123footer").load("partials/footer.html");
       });
     </script>
   </head>
@@ -73,8 +74,6 @@
         </div>
       </div>
     </main>
-    <footer class="navbar-dark bg-dark human-footer text-center">
-      &copy All rights reserved <i>The Human Project.</i> 2019
-    </footer>
+    <div id="123footer"></div>
   </body>
 </html>
