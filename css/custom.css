@@ -1,0 +1,33 @@
+/* Nav Bar Css */
+
+.human-nav-right {
+  margin-left: 49%;
+}
+
+.human-footer {
+  color: white;
+  padding: 12px;
+}
+
+.human-index-main {
+  margin-bottom: 18.05%;
+  margin-top: 16%;
+}
+
+/* Features.html Css */
+
+.human-features-main {
+  margin: 3.5%;
+}
+
+.human-features-container {
+  margin-top: 4.2%;
+}
+
+.human-features-suggestion {
+  min-height: 342px;
+}
+
+.human-features-form {
+  margin-right: 25%;
+}
