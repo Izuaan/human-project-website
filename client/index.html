@@ -10,7 +10,9 @@
 
   <script>
     $(document).ready(function () {
-      $("#human-nav-bar").load("html/partials/navBar.html");
+      $("#human-nav-bar").load("html/partials/navBar.html", function(){
+        $("nav-feature").addClass("active");
+      });
       $("#123footer").load("html/partials/footer.html");
     });
   </script>

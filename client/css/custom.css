@@ -1,7 +1,7 @@
 /* Nav Bar Css */
 
 .human-nav-right {
-  margin-left: 49%;
+  margin-left: 74%;
 }
 
 .human-footer {
@@ -37,4 +37,25 @@
   padding-left:600px;
   padding-right:600px;
   padding-bottom:15px;
+}
+
+.form1 {
+  margin-left: 3.5%;
+}
+
+#left{
+  padding-left: -8px;
+  padding-right: -115px;;
+}
+
+.one {
+  max-width: 1500px;
+}
+
+.spinload{
+  width: 30px;
+}
+
+.human-hidden {
+  display: none;
 }

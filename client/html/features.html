@@ -10,10 +10,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
       $(document).ready(function() {
-        $("#human-nav-bar").load("partials/navBar.html");
-        $(window).bind("load", function() {
-          $("#nav-feature").addClass("active");
-        });
+        $("#human-nav-bar").load("partials/navBar.html", function(){
+        $("#nav-feature").addClass("active");
+      });
         $("#123footer").load("partials/footer.html");
       });
     </script>
@@ -31,7 +30,7 @@
             <p class="lead">
               We want to hear what you want from us to be more human
             </p>
-            <form class="human-features-form">
+            <form id="mustremoveform" class="human-features-form">
               <div class="form-group">
                 <input
                   type="text"
@@ -46,8 +45,12 @@
                   rows="3"
                 ></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button id="featureSubmitBtn" type="button" class="btn btn-primary">Submit</button>
             </form>
+            <div id="spinningloader" class="text-center human-hidden">
+              <img class="spinload" src="/assets/loader.gif"/>
+              <p class="lead"><i>Please wait while we send the date to the server...</i></p>
+            </div>
           </div>
           <div class="col">
             <div class="card human-features-suggestion">
@@ -75,5 +78,6 @@
       </div>
     </main>
     <div id="123footer"></div>
+    <script src="js/features.js"></script>
   </body>
 </html>

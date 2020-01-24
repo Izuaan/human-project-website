@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <link rel="stylesheet" href="../css/bootstrap.css" />
+  <link rel="stylesheet" href="../css/custom.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#human-nav-bar").load("partials/navBar.html", function(){
+        $("#nav-contact-us").addClass("active");
+      });
+      $("#123footer").load("partials/footer.html");
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+    <div id="human-nav-bar"></div>
+  </header>
+  <main>
+    <div class="contact px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <h1 class="display-4">Contact Us</h1>
+    </div>
+    <div class="one container">
+      <div class="row">
+        <div class="onecol col">
+          <h3>Got some questions?</h3>
+          <p class="lead">Drop us a line.</p>
+          <form>
+            <div class="form-group">
+              <label for="firstName">Name:</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your name">
+            </div>
+            <div class="form-group">
+              <label for="formcontrolInput1">E-mail:</label>
+              <input type="email" class="form-control" id="email" placeholder="mail@adress.com">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-outline-primary">Send</button>
+          </form>
+        </div>
+        <div class="twocol col">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/71w7iBFQZDL._SX425_.jpg" alt="..." class="img-thumbnail">
+          <div class="text-center">
+           <h3>We know it's hard to be human.</h3>
+            <p class="lead">Let us help!</p>
+            </div>
+        </div>
+      </div>
+
+    </div>
+  </main>>
+  <div id="123footer"></div>
+</body>
+
+</html>
